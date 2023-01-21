@@ -9,6 +9,9 @@ function App() {
                         <div className="profile-img"></div>
                         <h3 className="title">Fullstack Web Entwickler</h3>
                     </div>
+                    <div className="contact-container">
+                        <h5>Kontaktdaten</h5>
+                    </div>
                 </div>
                 <div className="text"></div>
                 <div className="projects"></div>

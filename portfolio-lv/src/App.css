@@ -1,7 +1,7 @@
 :root {
     --dark: #222222;
     --gray: #444444;
-    --text: rgb(19, 194, 238);
+    --text: rgb(255, 152, 34);
 }
 * {
     box-sizing: border-box;
@@ -11,7 +11,9 @@
 }
 .App {
     display: block;
-    font-family: Roboto, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
     min-height: 100vh;
 }
 .context-all {
@@ -51,6 +53,14 @@
     color: var(--text);
     text-align: center;
     background-color: var(--gray);
+}
+.info .contact-container {
+    background-color: var(--gray);
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-bottom: var(--dark) 5px solid;
 }
 /* 
 .main-container .bg-image {
