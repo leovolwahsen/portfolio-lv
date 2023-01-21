@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.main-container .bg-image {
+    width: 75%;
+    height: 15rem;
+    background-color: darkgrey;
+}
+.bg-image1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.main-container .txt {
+    width: 75%;
+    height: 30rem;
+    background-color: darkgrey;
+}
+.main-container .projects {
+    width: 75%;
+    height: 12rem;
+    margin-top: 1rem;
+    background-color: darkgrey;
+}
