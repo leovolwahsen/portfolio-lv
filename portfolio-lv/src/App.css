@@ -3,17 +3,21 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
+    background-color: #222222;
 }
 
 .main-container .bg-image {
-    width: 75%;
+    width: 100%;
     height: 15rem;
     background-color: darkgrey;
+    align-items: center;
 }
 .bg-image1 {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    -webkit-filter: grayscale(85%);
+    filter: grayscale(85%);
 }
 .main-container .txt {
     width: 75%;
@@ -26,3 +30,4 @@
     margin-top: 1rem;
     background-color: darkgrey;
 }
+aside-container

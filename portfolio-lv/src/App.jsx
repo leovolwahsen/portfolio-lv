@@ -7,8 +7,8 @@ function App() {
                 <div className="bg-image">
                     <img
                         className="bg-image1"
-                        src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80"
-                        alt="image of code"
+                        src="../src/assets/img/code.jpg"
+                        alt="code image"
                     ></img>
                 </div>
 
@@ -19,7 +19,10 @@ function App() {
                 <div className="projects">projekte</div>
             </main>
             <aside className="aside-container">
-                <div className=""></div>
+                <div className="profile-img"></div>
+                <div className="contact-info"></div>
+                <div className="skills"></div>
+                <div className="contact-symbols"></div>
             </aside>
         </div>
     );
