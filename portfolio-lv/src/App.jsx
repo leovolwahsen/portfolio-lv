@@ -3,13 +3,25 @@ import "./App.css";
 function App() {
     return (
         <div className="App">
-            <main className="main-container">
+            <div className="context-all close">
+                <div className="info">
+                    <div className="image-container">
+                        <div className="profile-img"></div>
+                        <h3 className="title">Fullstack Web Entwickler</h3>
+                    </div>
+                </div>
+                <div className="text"></div>
+                <div className="projects"></div>
+            </div>
+            {/* <main className="main-container close">
                 <div className="bg-image">
+                    <h4 className="title">Fullstack Web Entwickler</h4>{" "}
                     <img
-                        className="bg-image1"
-                        src="../src/assets/img/code.jpg"
-                        alt="code image"
+                        className="profile-img"
+                        src="../src/assets/img/profilbild.jpg"
+                        alt="profile-img"
                     ></img>
+                  
                 </div>
 
                 <div className="txt">
@@ -23,7 +35,7 @@ function App() {
                 <div className="contact-info"></div>
                 <div className="skills"></div>
                 <div className="contact-symbols"></div>
-            </aside>
+            </aside> */}
         </div>
     );
 }
