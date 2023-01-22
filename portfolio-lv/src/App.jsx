@@ -11,11 +11,15 @@ function App() {
                     </div>
                     <div className="contact-container">
                         <h4 className="contact-title">Kontaktdaten</h4>
-                        <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li></ul>
+                        <ul className="contact-data">
+                            <li>Wohnort: Berlin</li>
+                            <li>Telefonnummer: +49 176 4151 8644</li>
+                            <li>Email: volwahsenl@gmail.com</li>
+                            <li>Github: Leo Volwahsen</li>
+                        </ul>
+                    </div>
+                    <div className="skills-container">
+                        <h4 className="skills-title">Kenntnisse</h4>
                     </div>
                 </div>
                 <div className="text"></div>
