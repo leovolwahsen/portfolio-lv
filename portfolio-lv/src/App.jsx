@@ -10,7 +10,12 @@ function App() {
                         <h3 className="title">Fullstack Web Entwickler</h3>
                     </div>
                     <div className="contact-container">
-                        <h5>Kontaktdaten</h5>
+                        <h4 className="contact-title">Kontaktdaten</h4>
+                        <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li></ul>
                     </div>
                 </div>
                 <div className="text"></div>
