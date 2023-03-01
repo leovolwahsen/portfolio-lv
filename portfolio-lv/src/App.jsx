@@ -10,7 +10,7 @@ function App() {
                         <h3 className="title">Fullstack Web Entwickler</h3>
                     </div>
                     <div className="contact-container">
-                        <h4 className="contact-title">Kontaktdaten</h4>
+                        <h5 className="contact-title">Kontaktdaten</h5>
                         <ul className="contact-data">
                             <li>Wohnort: Berlin</li>
                             <li>Telefonnummer: +49 176 4151 8644</li>
@@ -18,36 +18,26 @@ function App() {
                             <li>Github: Leo Volwahsen</li>
                         </ul>
                     </div>
+
                     <div className="skills-container">
-                        <h4 className="skills-title">Kenntnisse</h4>
+                        <h5 className="skills-title">Kenntnisse</h5>
+                        <ul className="skills-data">
+                            <li>JavaScript: </li>
+                            <div className="skills-progressbar">70%</div>
+                            <li>React: </li>
+                            <div className="skills-progressbar">60%</div>
+                            <li>MongoDB:</li>
+                            <div className="skills-progressbar">70%</div>
+                            <li>Bootstrap:</li>
+                            <div className="skills-progressbar">50%</div>
+                            <li>SCSS/CSS/HTML:</li>
+                            <div className="skills-progressbar">80%</div>
+                        </ul>
                     </div>
                 </div>
                 <div className="text"></div>
                 <div className="projects"></div>
             </div>
-            {/* <main className="main-container close">
-                <div className="bg-image">
-                    <h4 className="title">Fullstack Web Entwickler</h4>{" "}
-                    <img
-                        className="profile-img"
-                        src="../src/assets/img/profilbild.jpg"
-                        alt="profile-img"
-                    ></img>
-                  
-                </div>
-
-                <div className="txt">
-                    <p>Fullstack Web Developer</p>
-                    <p>I create React Websites </p>
-                </div>
-                <div className="projects">projekte</div>
-            </main>
-            <aside className="aside-container">
-                <div className="profile-img"></div>
-                <div className="contact-info"></div>
-                <div className="skills"></div>
-                <div className="contact-symbols"></div>
-            </aside> */}
         </div>
     );
 }
