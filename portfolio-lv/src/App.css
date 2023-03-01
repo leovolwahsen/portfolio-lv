@@ -79,7 +79,7 @@
 .info .skills-container {
     background-color: var(--gray);
     width: 100%;
-    padding: 0.3rem;
+    padding: 0.1rem;
     margin-top: 1em;
     display: grid;
     justify-items: center;
@@ -102,13 +102,76 @@
     line-height: 1.6;
     color: var(--white);
 }
-.info .skills-container .skills-progressbar {
+.info .skills-container .skills-progressbar1 {
     width: 90%;
     height: 100%;
     margin: auto;
     color: var(--dark);
-    background: linear-gradient(to right, var(--text) 70%, var(--white) 30%);
+    background: linear-gradient(to right, var(--text) 80%, var(--white) 20%);
     border-radius: 10px;
     text-align: center;
     line-height: 100%;
 }
+.info .skills-container .skills-progressbar2 {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    color: var(--dark);
+    background: linear-gradient(to right, var(--text) 85%, var(--white) 15%);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100%;
+}
+.info .skills-container .skills-progressbar3 {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    color: var(--dark);
+    background: linear-gradient(to right, var(--text) 80%, var(--white) 30%);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100%;
+}
+.info .skills-container .skills-progressbar4 {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    color: var(--dark);
+    background: linear-gradient(to right, var(--text) 75%, var(--white) 35%);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100%;
+}
+.info .skills-container .skills-progressbar5 {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    color: var(--dark);
+    background: linear-gradient(to right, var(--text) 85%, var(--white) 30%);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100%;
+}
+.info .language-container {
+    width: 100%;
+    padding: 0.1rem;
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    background-color: var(--gray);
+}
+.info .language-container .language-title {
+    color: var(--text);
+    text-align: center;
+    background-color: var(--gray);
+    text-decoration: underline;
+}
+/* 
+.info .language-container .circular-progress {
+    width: 100px;
+    height: 50px;
+    border: 3px solid var(--text);
+    position: absolute;
+    color: var(--white);
+    text-align: center;
+} */
