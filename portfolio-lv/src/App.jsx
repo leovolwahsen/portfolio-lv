@@ -34,16 +34,18 @@ function App() {
                             <div className="skills-progressbar5">85%</div>
                         </ul>
                     </div>
+
                     <div className="language-container">
                         <h5 className="language-title">Sprachen</h5>
-                        <div className="circular-progress">
-                            <p className="progress-value">: Muttersprache</p>
-                        </div>
-                        <div className="circular-progress">
-                            <p className="progress-value">Englisch: C1</p>
-                        </div>
+
+                        <p className="language-level">Deutsch: Muttersprache</p>
+                        <p className="language-level">Englisch: C1</p>
                     </div>
-                </div>
+                </div>{" "}
+                {/* <a
+                    href="https://www.linkedin.com/in/leo-volwahsen"
+                    target="_blank"
+                ></a> */}
                 <div className="text"></div>
                 <div className="projects"></div>
             </div>
