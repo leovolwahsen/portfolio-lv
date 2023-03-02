@@ -22,7 +22,7 @@ function App() {
                     <div className="skills-container">
                         <h5 className="skills-title">Kenntnisse</h5>
                         <ul className="skills-data">
-                            <li>JavaScript: </li>
+                            <li>JavaScript / TypeScript: </li>
                             <div className="skills-progressbar1">80%</div>
                             <li>React: </li>
                             <div className="skills-progressbar2">85%</div>
