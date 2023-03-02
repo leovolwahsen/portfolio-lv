@@ -166,12 +166,3 @@
     background-color: var(--gray);
     text-decoration: underline;
 }
-/* 
-.info .language-container .circular-progress {
-    width: 100px;
-    height: 50px;
-    border: 3px solid var(--text);
-    position: absolute;
-    color: var(--white);
-    text-align: center;
-} */
