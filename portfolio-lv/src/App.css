@@ -22,8 +22,8 @@
     grid-template-columns: 320px 1fr 200px;
     grid-template-rows: 1fr;
     margin: 0 auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 75%;
 }
 .info {
@@ -54,22 +54,31 @@
     text-align: center;
     background-color: var(--gray);
 }
-.info .contact-container {
+.info .list-container {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.2rem;
     display: grid;
     background-color: var(--gray);
 }
-.info .contact-container .contact-title {
+.info .list-container .list-title {
     background-color: var(--gray);
-    padding: 0.3rem;
+    padding: 0.2rem;
     text-align: center;
     text-decoration: underline;
     color: var(--text);
 }
-.info .contact-container .contact-data {
+.info .list-container .list-data {
     background-color: var(--gray);
-    padding: 0.3rem;
+    padding: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 1.6;
+}
+.info .list-container .list-icon {
+    background-color: var(--gray);
+    padding: 0.2rem;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
@@ -79,7 +88,7 @@
 .info .skills-container {
     background-color: var(--gray);
     width: 100%;
-    padding: 0.1rem;
+    padding: 0.05rem 0.4rem 0.05rem 0.4rem;
     margin-top: 1em;
     display: grid;
     justify-items: center;
@@ -87,15 +96,15 @@
 }
 .info .skills-container .skills-title {
     background-color: var(--gray);
-    padding: 0.3rem;
+    padding: 0.2rem;
     text-align: center;
     text-decoration: underline;
     color: var(--text);
 }
 .info .skills-container .skills-data {
     background-color: var(--dark);
-    width: 94%;
-    padding: 0.3rem;
+    width: 100%;
+    padding: 0.2rem;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
@@ -127,7 +136,7 @@
     height: 100%;
     margin: auto;
     color: var(--dark);
-    background: linear-gradient(to right, var(--text) 80%, var(--white) 30%);
+    background: linear-gradient(to right, var(--text) 60%, var(--white) 30%);
     border-radius: 10px;
     text-align: center;
     line-height: 100%;
@@ -153,16 +162,44 @@
     line-height: 100%;
 }
 .info .language-container {
-    width: 100%;
-    padding: 0.1rem;
-    text-align: center;
-    justify-items: center;
-    display: grid;
     background-color: var(--gray);
+    width: 100%;
+    padding: 0.2rem;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--dark);
 }
-.info .language-container .language-title {
+.info .language-title {
     color: var(--text);
     text-align: center;
-    background-color: var(--gray);
     text-decoration: underline;
+}
+.info .language-container .language-level {
+    text-align: center;
+    color: var(--white);
+}
+.icons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: var(--gray);
+}
+.icons .icons1 {
+    color: var(--text);
+    font-size: x-large;
+    background-color: var(--gray);
+}
+.icons .icons2 {
+    color: var(--text);
+    font-size: x-large;
+    background-color: var(--gray);
+}
+.icons .icons3 {
+    color: var(--text);
+    font-size: x-large;
+    background-color: var(--gray);
 }
