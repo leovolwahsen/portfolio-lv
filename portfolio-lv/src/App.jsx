@@ -67,7 +67,13 @@ function App() {
                         </div>
                     </div>
                 </div>{" "}
-                <div className="text"></div>
+                <div className="main">
+                    <div className="image-container">
+                        <div className="bg">
+
+                        </div>
+                    </div>
+                </div>
                 <div className="projects"></div>
             </div>
         </div>
