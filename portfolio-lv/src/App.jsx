@@ -69,10 +69,9 @@ function App() {
                 </div>{" "}
                 <div className="main">
                     <div className="image-container">
-                        <div className="bg">
-
-                        </div>
+                        <span className="bg"></span>
                     </div>
+                    <h5 className="header">Bisherige Projekte</h5>
                 </div>
                 <div className="projects"></div>
             </div>
