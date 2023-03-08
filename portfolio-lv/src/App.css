@@ -18,9 +18,9 @@
     height: 100%;
     color: var(--white);
 }
-.context-all {
+.container-body {
     display: grid;
-    grid-template-columns: 320px 1fr 200px;
+    grid-template-columns: 320px 1fr;
     grid-template-rows: 1fr;
     margin: 0 auto;
     padding-top: 1rem;
@@ -30,7 +30,7 @@
 .info {
     background-color: var(--gray);
     display: grid;
-    grid-template-rows: 250px 150px 1fr 1fr 50px;
+    grid-template-rows: 13rem 1fr 1fr 1fr;
     max-height: calc(100vh - 4rem);
 }
 .info .image-container {
@@ -90,7 +90,6 @@
     background-color: var(--gray);
     width: 100%;
     padding: 0.05rem 0.4rem 0.05rem 0.4rem;
-    margin-top: 1em;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -209,6 +208,7 @@
     display: grid;
     grid-template-rows: 300px 50px 1fr;
     max-height: calc(100vh - 4rem);
+    margin-left: 1rem;
 }
 .main .image-container {
     background-color: var(--dark);
@@ -231,5 +231,30 @@
     align-items: center;
     color: var(--text);
     text-decoration: underline;
+    background-color: var(--gray);
+}
+.main .projects {
+    height: 50vh;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+.main .projects .title {
+    color: var(--text);
+    text-align: center;
+    text-decoration: underline;
+}
+.main .projects .cart {
+    height: 10vw;
+    width: 65.5vh;
+    background-color: var(--gray);
+    text-align: center;
+    padding: 3rem;
+}
+.main .projects .cart .link {
     background-color: var(--gray);
 }
