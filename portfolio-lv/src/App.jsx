@@ -93,20 +93,17 @@ function App() {
                         </article>
                         <article>
                             {" "}
-                            <h6 className="title">Todo Liste</h6>{" "}
+                            <h6 className="title">Elite Event Planners</h6>{" "}
                             <div className="cart">
-                                Diese To-do-Liste kann eingegebene Einträge
-                                erstellen und als abgeschlossen markieren. Diese
-                                Website habe ich erstellt, um diese selber
-                                nutzen zu können, um mich zu organisieren.{" "}
+                            Diese Elite Event Planners Website wurde mit einem kleinen Team, inklusive mir erstellt. Wir haben in dieser Full-Stack Anwendung eine interaktive Website erstellt, bei der man als Nutzer wie auch als Administrator unterschiedliche Funktionen nutzen kann.{" "}
                                 <a
-                                    href="https://lv-001-todo-app.netlify.app"
+                                    href="https://event.ella-rotari.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="link"
                                 >
                                     <br />
-                                    Todo Liste Link
+                                    Elite Event Planners Link
                                 </a>
                             </div>
                         </article>
