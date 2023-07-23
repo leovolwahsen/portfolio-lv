@@ -181,12 +181,9 @@ function App() {
                         </article>
                         <article>
                             {" "}
-                            <h6 className="title">Rennauto-Tachometer</h6>{" "}
+                            <h6 className="title">KinoWebsite</h6>{" "}
                             <div className="cart">
-                                Dieser interaktive Rennauto-Tachometer kann mit
-                                den Tasten die Geschwindigkeit steuern, er wurde
-                                mithilfe von React erstellt und wird über
-                                Netlify gehostet.{" "}
+                                Diese Website bietet eine Datenbank mit Aktuellen Kinofilmen wie auch alte Klassiker zum durchstöbern an. Die anwendung ist eine auf AngularJS basierende mit Daten und Videomaterial der beliebigen Filme.{" "}
                                 <a
                                     href="https://lv-react-car-speedometer.netlify.app"
                                     target="_blank"
