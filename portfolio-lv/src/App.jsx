@@ -145,6 +145,78 @@ function App() {
                                 </a>
                             </div>
                         </article>
+                        <article>
+                            <h6 className="title">Tachenrechner</h6>
+                            <div className="cart">
+                                Dieser Taschenrechner ermöglicht mathematische
+                                Berechnungen zu lösen, bei dieser Anwendung habe
+                                ich mehr über Design aber auch JavaScript Logik
+                                gelernt.{" "}
+                                <a
+                                    href="https://lv001-react-calculator.netlify.app"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="link"
+                                >
+                                    <br />
+                                    Taschenrechner Link
+                                </a>
+                            </div>
+                        </article>
+                        <article>
+                            {" "}
+                            <h6 className="title">Elite Event Planners</h6>{" "}
+                            <div className="cart">
+                            Diese Elite Event Planners Website wurde mit einem kleinen Team, inklusive mir erstellt. Wir haben in dieser Full-Stack Anwendung eine interaktive Website erstellt, bei der man als Nutzer wie auch als Administrator unterschiedliche Funktionen nutzen kann.{" "}
+                                <a
+                                    href="https://event.ella-rotari.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="link"
+                                >
+                                    <br />
+                                    Elite Event Planners Link
+                                </a>
+                            </div>
+                        </article>
+                        <article>
+                            {" "}
+                            <h6 className="title">Rennauto-Tachometer</h6>{" "}
+                            <div className="cart">
+                                Dieser interaktive Rennauto-Tachometer kann mit
+                                den Tasten die Geschwindigkeit steuern, er wurde
+                                mithilfe von React erstellt und wird über
+                                Netlify gehostet.{" "}
+                                <a
+                                    href="https://lv-react-car-speedometer.netlify.app"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="link"
+                                >
+                                    <br />
+                                    Interaktiver Tachometer Link
+                                </a>
+                            </div>
+                        </article>
+                        <article>
+                            {" "}
+                            <h6 className="title">QR-Code Generator</h6>{" "}
+                            <div className="cart">
+                                Dieser QR-Code Generator ermöglicht es eine URL
+                                in das Eingabefeld zu geben und einen QR-Code zu
+                                bekommen, diese Anwendung war ein Bedürfnis, da
+                                ich diese sehr praktisch finde und öfters nutze.{" "}
+                                <a
+                                    href="https://lv003-qr-generator.netlify.app"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="link"
+                                >
+                                    <br />
+                                    QR-Code Generator Link
+                                </a>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
