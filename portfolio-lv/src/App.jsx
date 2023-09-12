@@ -146,20 +146,18 @@ function App() {
                             </div>
                         </article>
                         <article>
-                            <h6 className="title">Tachenrechner</h6>
+                            <h6 className="title">Interactive 3D-Kugel</h6>
                             <div className="cart">
-                                Dieser Taschenrechner ermöglicht mathematische
-                                Berechnungen zu lösen, bei dieser Anwendung habe
-                                ich mehr über Design aber auch JavaScript Logik
-                                gelernt.{" "}
+                                Dieser 3D-Kugel wurde mit threejs programmiert und lässt den Nutzer mittels
+                                 der Maus das Objekt drehen und gleichzeitig Farben wie auch Schatten beeinflussen.{" "}
                                 <a
-                                    href="https://lv001-react-calculator.netlify.app"
+                                    href="https://3d-interactive-colorchanging-sphere.netlify.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="link"
                                 >
                                     <br />
-                                    Taschenrechner Link
+                                    3D-Kugel Link
                                 </a>
                             </div>
                         </article>
