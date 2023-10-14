@@ -180,13 +180,13 @@ function App() {
                             <div className="cart">
                                 Diese Website bietet eine Datenbank mit Aktuellen Kinofilmen wie auch alte Klassiker zum durchstöbern an. Die anwendung ist eine auf AngularJS basierende mit Daten und Videomaterial der beliebigen Filme.{" "}
                                 <a
-                                    href="https://lv-react-car-speedometer.netlify.app"
+                                    href="https://angular-kino-webseite.netlify.app/hauptseite"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="link"
                                 >
                                     <br />
-                                    Interaktiver Tachometer Link
+                                    Interaktiver Kino-Film Link
                                 </a>
                             </div>
                         </article>
