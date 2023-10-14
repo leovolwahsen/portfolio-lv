@@ -76,12 +76,9 @@ function App() {
                         <article>
                             <h6 className="title">Tachenrechner</h6>
                             <div className="cart">
-                                Dieser Taschenrechner ermöglicht mathematische
-                                Berechnungen zu lösen, bei dieser Anwendung habe
-                                ich mehr über Design aber auch JavaScript Logik
-                                gelernt.{" "}
+                                Dieser Apple Taschenrechner ist so konzipiert, dass man so viele Berechnungen machen kann wie man möchte. Er merkt sich auch die letzte Antwort und kann diese für die anschließende Rechnung benutzen.
                                 <a
-                                    href="https://lv001-react-calculator.netlify.app"
+                                    href="https://apple-taschenrechner.netlify.app"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="link"
