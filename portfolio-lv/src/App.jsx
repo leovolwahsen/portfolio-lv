@@ -178,9 +178,9 @@ function App() {
                             {" "}
                             <h6 className="title">KinoWebsite</h6>{" "}
                             <div className="cart">
-                                Diese Website bietet eine Datenbank mit Aktuellen Kinofilmen wie auch alte Klassiker zum durchstöbern an. Die anwendung ist eine auf AngularJS basierende mit Daten und Videomaterial der beliebigen Filme.{" "}
+                                Diese Website bietet eine Datenbank mit Aktuellen Kinofilmen wie auch alte Klassiker zum durchstöbern an. Die Anwendung ist eine auf React basierende mit Daten und Videomaterial der beliebigen Filme.{" "}
                                 <a
-                                    href="https://angular-kino-webseite.netlify.app/hauptseite"
+                                    href="https://lv-beste-kinofilme.netlify.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="link"
