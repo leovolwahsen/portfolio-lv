@@ -8,12 +8,12 @@ function App() {
                 <div className="info">
                     <div className="image-container">
                         <div className="profile-img"></div>
-                        <h4 className="title">Fullstack Web Entwickler</h4>
+                        <h4 className="title">Softwareentwickler</h4>
                     </div>
                     <div className="list-container">
                         <h5 className="list-title">Kontaktdaten</h5>
                         <ul className="list-data">
-                            <li>Wohnort: Berlin</li>
+                            <li>Wohnort: Ludwigshafen am Rhein</li>
                             <li>Telefonnummer: +49 176 4151 8644</li>
                             <li>Email: volwahsenl@gmail.com</li>
                             <li>Github: Leo Volwahsen</li>
