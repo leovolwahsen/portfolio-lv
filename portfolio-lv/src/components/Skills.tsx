@@ -1,5 +1,6 @@
 import React from "react";
-import { Progress, Typography } from "antd";
+import { Flex, Progress, Typography } from "antd";
+import { theming } from "../../theming";
 
 const { Title } = Typography;
 
@@ -13,16 +14,18 @@ const skills = [
 
 export const Skills: React.FC = () => {
   return (
-    <div>
-      <Title level={5} style={{ textAlign: "center", color: "rgb(255, 152, 34)" }}>
+    <Flex vertical gap={10}>
+      <Title level={5} style={{ textAlign: "center", color: theming?.colors?.primary }}>
         Kenntnisse
       </Title>
-      {skills.map((skill) => (
-        <div key={skill.name} style={{ margin: "0.5rem 0" }}>
-          <Typography.Text>{skill.name}</Typography.Text>
-          <Progress percent={skill.level} showInfo={false} strokeColor="rgb(255, 152, 34)" />
-        </div>
-      ))}
-    </div>
+      <Flex vertical gap={16}>
+        {skills.map((skill) => (
+          <Flex vertical key={skill.name} gap={2}>
+            <Typography.Text style={{ color: "white" }}>{skill.name}</Typography.Text>
+            <Progress percent={skill.level} showInfo={false} strokeColor={theming?.colors?.primary} />
+          </Flex>
+        ))}
+      </Flex>
+    </Flex>
   );
 }
