@@ -90,9 +90,9 @@ function App() {
                         </article>
                         <article>
                             {" "}
-                            <h6 className="title">Elite Event Planners</h6>{" "}
+                            <h6 className="title">Elite Event Planners</h6>
                             <div className="cart">
-                            Diese Elite Event Planners Website wurde mit einem kleinen Team, inklusive mir erstellt. Wir haben in dieser Full-Stack Anwendung eine interaktive Website erstellt, bei der man als Nutzer wie auch als Administrator unterschiedliche Funktionen nutzen kann.{" "}
+                            Diese Elite Event Planners Website wurde mit einem kleinen Team, inklusive mir erstellt. Wir haben in dieser Full-Stack Anwendung eine interaktive Website erstellt, bei der man als Nutzer wie auch als Administrator unterschiedliche Funktionen nutzen kann.
                                 <a
                                     href="https://event.ella-rotari.com"
                                     target="_blank"
@@ -106,20 +106,17 @@ function App() {
                         </article>
                         <article>
                             {" "}
-                            <h6 className="title">Rennauto-Tachometer</h6>{" "}
+                            <h6 className="title">Yoga Guide</h6>
                             <div className="cart">
-                                Dieser interaktive Rennauto-Tachometer kann mit
-                                den Tasten die Geschwindigkeit steuern, er wurde
-                                mithilfe von React erstellt und wird über
-                                Netlify gehostet.{" "}
+                                Diese Yoga Guide Webseite wurde gepflegt mit Daten aus Datenbank MongoDB und ist responsiv, dazu gibt es feature wie dark/light-mode, toster messages und Anker-Links.
                                 <a
-                                    href="https://lv-react-car-speedometer.netlify.app"
+                                    href="https://yoga-guide-2uteimbjf-01specter01s-projects.vercel.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="link"
                                 >
                                     <br />
-                                    Interaktiver Tachometer Link
+                                    Yoga Guide Link
                                 </a>
                             </div>
                         </article>
