@@ -38,17 +38,17 @@ export const Projects: React.FC = () => {
       <Title level={5} style={{ textAlign: "center", color: theming?.colors?.primary }}>
         Bisherige Projekte
       </Title>
-      <Row gutter={[24, 24]}>
-        {projects.map((projects) => (
-          <Col key={projects?.title} xs={24} sm={12} md={12} lg={12}>
-            <Card title={projects?.title} hoverable style={{ backgroundColor: '#444444', color: '#ffffff' }}
+      <Row gutter={[16, 16]}>
+        {projects.map((project) => (
+          <Col key={project?.title} xs={24} sm={12} md={8} lg={6}>
+            <Card title={project?.title} hoverable style={{ backgroundColor: '#444444', color: '#ffffff' }}
               extra={
-                <Button type="link" href={projects.link} target="_blank" rel="noopener noreferrer" style={{ color: theming?.colors?.primary }}>
+                <Button type="link" href={project.link} target="_blank" rel="noopener noreferrer" style={{ color: theming?.colors?.primary }}>
                   Link
                 </Button>
               }
             >
-              {projects?.description}
+              {project?.description}
             </Card>
           </Col>
         ))}
