@@ -7,9 +7,9 @@ const { Title } = Typography;
 export const Projects: React.FC = () => {
   const projects = [
     {
-      title: "Taschenrechner",
-      description: "Dieser Apple Taschenrechner ist so konzipiert, dass man so viele Berechnungen machen kann wie man möchte.",
-      link: "https://apple-taschenrechner.netlify.app",
+      title: "Standard/Wissenschaftlicher Taschenrechner",
+      description: "Dieser responsiv gestaltete Taschenrechner bietet zwei Modi: Standard und Wissenschaftlich. Mit einem Klick auf das Taschenrechner-Symbol wechseln Sie zwischen den Modi. Der wissenschaftliche Modus ermöglicht erweiterte Funktionen wie trigonometrische und logarithmische Berechnungen. Komplexe Funktionen schließen Klammern automatisch, um Berechnungen intuitiv zu gestalten.",
+      link: "https://lv-react-calculator.netlify.app/",
     },
     {
       title: "Yoga Guide",
