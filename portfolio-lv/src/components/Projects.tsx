@@ -30,6 +30,11 @@ export const Projects: React.FC = () => {
       title: "Kino Website",
       description: "Diese Website bietet eine Datenbank mit Aktuellen Kinofilmen wie auch alte Klassiker zum durchstöbern an. Die Anwendung ist eine auf React basierende mit Daten und Videomaterial der beliebigen Filme.",
       link: "https://lv-beste-kinofilme.netlify.app/"
+    },
+    {
+      title: "Menorca Event Website",
+      description: "Diese Website bietet umfassende Informationen zu einer mehrtägigen Veranstaltung auf Menorca, die von einem Brautpaar anlässlich ihres 10-jährigen Jubiläums organisiert wird. Über das bereitgestellte Formular können Gäste sich selbst sowie eine Begleitperson registrieren. Die Anwendung basiert auf React und stellt alle relevanten Daten und Details zum Event bereit.",
+      link: "https://menorca-event.netlify.app/"
     }
   ];
 
