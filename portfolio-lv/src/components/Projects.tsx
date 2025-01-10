@@ -7,9 +7,19 @@ const { Title } = Typography;
 export const Projects: React.FC = () => {
   const projects = [
     {
+      title: "Menorca Event Website",
+      description: "Diese Website bietet umfassende Informationen zu einer mehrtägigen Veranstaltung auf Menorca, die von einem Brautpaar anlässlich ihres 10-jährigen Jubiläums organisiert wird. Über das bereitgestellte Formular können Gäste sich selbst sowie eine Begleitperson registrieren. Die Anwendung basiert auf React und stellt alle relevanten Daten und Details zum Event bereit.",
+      link: "https://menorca-event.netlify.app/"
+    },
+    {
       title: "Standard/Wissenschaftlicher Taschenrechner",
       description: "Dieser responsiv gestaltete Taschenrechner bietet zwei Modi: Standard und Wissenschaftlich. Mit einem Klick auf das Taschenrechner-Symbol wechseln Sie zwischen den Modi. Der wissenschaftliche Modus ermöglicht erweiterte Funktionen wie trigonometrische und logarithmische Berechnungen. Komplexe Funktionen schließen Klammern automatisch, um Berechnungen intuitiv zu gestalten.",
       link: "https://lv-react-calculator.netlify.app/",
+    },
+    {
+      title: "Interactive 3D-Kugel",
+      description: " Dieser 3D-Kugel wurde mit threejs programmiert und lässt den Nutzer mittels der Maus das Objekt drehen und gleichzeitig Farben wie auch Schatten beeinflussen.",
+      link: "https://3d-interactive-colorchanging-sphere.netlify.app/"
     },
     {
       title: "Yoga Guide",
@@ -22,19 +32,9 @@ export const Projects: React.FC = () => {
       link: "https://lv003-qr-generator.netlify.app"
     },
     {
-      title: "Interactive 3D-Kugel",
-      description: " Dieser 3D-Kugel wurde mit threejs programmiert und lässt den Nutzer mittels der Maus das Objekt drehen und gleichzeitig Farben wie auch Schatten beeinflussen.",
-      link: "https://3d-interactive-colorchanging-sphere.netlify.app/"
-    },
-    {
       title: "Kino Website",
       description: "Diese Website bietet eine Datenbank mit Aktuellen Kinofilmen wie auch alte Klassiker zum durchstöbern an. Die Anwendung ist eine auf React basierende mit Daten und Videomaterial der beliebigen Filme.",
       link: "https://lv-beste-kinofilme.netlify.app/"
-    },
-    {
-      title: "Menorca Event Website",
-      description: "Diese Website bietet umfassende Informationen zu einer mehrtägigen Veranstaltung auf Menorca, die von einem Brautpaar anlässlich ihres 10-jährigen Jubiläums organisiert wird. Über das bereitgestellte Formular können Gäste sich selbst sowie eine Begleitperson registrieren. Die Anwendung basiert auf React und stellt alle relevanten Daten und Details zum Event bereit.",
-      link: "https://menorca-event.netlify.app/"
     }
   ];
 
