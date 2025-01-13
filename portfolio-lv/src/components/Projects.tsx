@@ -32,9 +32,9 @@ export const Projects: React.FC = () => {
       link: "https://lv003-qr-generator.netlify.app"
     },
     {
-      title: "Kino Website",
-      description: "Diese Website bietet eine Datenbank mit Aktuellen Kinofilmen wie auch alte Klassiker zum durchstöbern an. Die Anwendung ist eine auf React basierende mit Daten und Videomaterial der beliebigen Filme.",
-      link: "https://lv-beste-kinofilme.netlify.app/"
+      title: "Filmsuche Website",
+      description: "Die Website Filmsuche bietet eine umfassende Plattform, auf der Nutzer sowohl aktuelle Kinofilme als auch zeitlose Klassiker entdecken können. Schon beim Öffnen der Seite wird eine tägliche Filmempfehlung präsentiert, die jeden Tag wechselt und zur Inspiration dient. Auf der Favoriten-Seite können Nutzer ihre Lieblingsfilme speichern, um sie später anzusehen. Die Filme-Seite lädt zum Stöbern ein und bietet eine breite Auswahl an Filmen, die sowohl für Fans moderner Blockbuster als auch für Liebhaber klassischer Filme geeignet ist. Für Feedback oder Fragen steht die Kontakt-Seite zur Verfügung, auf der Nutzer mithilfe eines Formulars Nachrichten direkt an das Filmsuche-Team senden können. Alle Formulare sind validiert, sodass nur korrekt eingegebene Daten sicher an die Datenbank übermittelt werden. Diese durchdachte Kombination aus Inspiration, Organisation und Kommunikation macht die Website zu einem idealen Begleiter für Filmfans.",
+      link: "https://filmsuche.netlify.app/"
     }
   ];
 
