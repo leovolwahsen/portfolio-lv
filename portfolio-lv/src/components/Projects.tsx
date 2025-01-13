@@ -17,8 +17,13 @@ export const Projects: React.FC = () => {
       link: "https://lv-react-calculator.netlify.app/",
     },
     {
+      title: "Filmsuche Website",
+      description: "Die Website Filmsuche bietet eine Plattform, auf der Nutzer aktuelle Kinofilme und zeitlose Klassiker entdecken können. Gleich beim Öffnen der Seite wird eine täglich wechselnde Filmempfehlung präsentiert, die zur Inspiration dient. Nutzer können ihre Lieblingsfilme auf der Favoriten-Seite speichern, um sie später anzusehen, während die Filme-Seite mit einer breiten Auswahl an modernen Blockbustern und klassischen Filmen zum Stöbern einlädt. Für Feedback oder Fragen steht ein Kontaktformular bereit, das validierte Daten sicher an die Datenbank übermittelt. Diese Kombination aus Inspiration, Organisation und Kommunikation macht die Website zum idealen Begleiter für Filmfans.",
+      link: "https://filmsuche.netlify.app/"
+    },
+    {
       title: "Interactive 3D-Kugel",
-      description: " Dieser 3D-Kugel wurde mit threejs programmiert und lässt den Nutzer mittels der Maus das Objekt drehen und gleichzeitig Farben wie auch Schatten beeinflussen.",
+      description: "Dieser 3D-Kugel wurde mit threejs programmiert und lässt den Nutzer mittels der Maus das Objekt drehen und gleichzeitig Farben wie auch Schatten beeinflussen.",
       link: "https://3d-interactive-colorchanging-sphere.netlify.app/"
     },
     {
@@ -30,11 +35,6 @@ export const Projects: React.FC = () => {
       title: "QR-Code Generator",
       description: "Dieser QR-Code Generator ermöglicht es eine URL in das Eingabefeld zu geben und einen QR-Code zubekommen, diese Anwendung war ein Bedürfnis, da ich diese sehr praktisch finde und öfters nutze.",
       link: "https://lv003-qr-generator.netlify.app"
-    },
-    {
-      title: "Filmsuche Website",
-      description: "Die Website Filmsuche bietet eine umfassende Plattform, auf der Nutzer sowohl aktuelle Kinofilme als auch zeitlose Klassiker entdecken können. Schon beim Öffnen der Seite wird eine tägliche Filmempfehlung präsentiert, die jeden Tag wechselt und zur Inspiration dient. Auf der Favoriten-Seite können Nutzer ihre Lieblingsfilme speichern, um sie später anzusehen. Die Filme-Seite lädt zum Stöbern ein und bietet eine breite Auswahl an Filmen, die sowohl für Fans moderner Blockbuster als auch für Liebhaber klassischer Filme geeignet ist. Für Feedback oder Fragen steht die Kontakt-Seite zur Verfügung, auf der Nutzer mithilfe eines Formulars Nachrichten direkt an das Filmsuche-Team senden können. Alle Formulare sind validiert, sodass nur korrekt eingegebene Daten sicher an die Datenbank übermittelt werden. Diese durchdachte Kombination aus Inspiration, Organisation und Kommunikation macht die Website zu einem idealen Begleiter für Filmfans.",
-      link: "https://filmsuche.netlify.app/"
     }
   ];
 
