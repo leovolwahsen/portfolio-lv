@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Row, Typography, Image } from "antd";
+import { Flex, Typography, Image } from "antd";
 import ProfileImage from "../assets/images/profilbild.jpg"
 import { theming } from "../../theming";
 
