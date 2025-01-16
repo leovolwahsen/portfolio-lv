@@ -8,13 +8,13 @@ export const Projects: React.FC = () => {
   const projects = [
     {
       title: "Menorca Event Website",
-      description: "Diese Website bietet umfassende Informationen zu einer mehrtägigen Veranstaltung auf Menorca, die von einem Brautpaar anlässlich ihres 10-jährigen Jubiläums organisiert wird. Über das bereitgestellte Formular können Gäste sich selbst sowie eine Begleitperson registrieren. Die Anwendung basiert auf React und stellt alle relevanten Daten und Details zum Event bereit.",
+      description: "Diese Website bietet umfassende Informationen zu einer mehrtägigen Veranstaltung auf Menorca, die von einem Brautpaar anlässlich ihres 10-jährigen Jubiläums organisiert wird. Über das bereitgestellte Formular können Gäste sich selbst sowie eine Begleitperson registrieren. Zudem liefert die Seite umfangreiche Details zu Unterkünften, dem Veranstaltungsplan und wichtigen Kontaktinformationen, damit die Gäste optimal vorbereitet sind. Die Anwendung basiert auf React und stellt alle relevanten Daten und Details zum Event bereit, um die Planung so einfach wie möglich zu gestalten.",
       link: "https://menorca-event.netlify.app/"
     },
     {
       title: "Standard/Wissenschaftlicher Taschenrechner",
-      description: "Dieser responsiv gestaltete Taschenrechner bietet zwei Modi: Standard und Wissenschaftlich. Mit einem Klick auf das Taschenrechner-Symbol wechseln Sie zwischen den Modi. Der wissenschaftliche Modus ermöglicht erweiterte Funktionen wie trigonometrische und logarithmische Berechnungen. Komplexe Funktionen schließen Klammern automatisch, um Berechnungen intuitiv zu gestalten.",
-      link: "https://lv-react-calculator.netlify.app/",
+      description: "Dieser responsiv gestaltete Taschenrechner bietet zwei Modi: Standard und Wissenschaftlich. Der Standardmodus deckt die grundlegenden Rechenfunktionen ab, während der wissenschaftliche Modus erweiterte Funktionen wie trigonometrische und logarithmische Berechnungen ermöglicht. Mit einem Klick auf das Taschenrechner-Symbol können Sie bequem zwischen den Modi wechseln. Eine Besonderheit ist die automatische Klammerergänzung bei komplexen Funktionen, die für ein intuitives Nutzererlebnis sorgt. So eignet sich die Anwendung sowohl für alltägliche als auch für anspruchsvollere mathematische Aufgaben.",
+      link: "https://lv-react-calculator.netlify.app/"
     },
     {
       title: "Filmsuche Website",
@@ -23,17 +23,12 @@ export const Projects: React.FC = () => {
     },
     {
       title: "Interactive 3D-Kugel",
-      description: "Dieser 3D-Kugel wurde mit threejs programmiert und lässt den Nutzer mittels der Maus das Objekt drehen und gleichzeitig Farben wie auch Schatten beeinflussen.",
+      description: "Dieser interaktive 3D-Kugel wurde mit threejs programmiert und bietet Nutzern die Möglichkeit, das Objekt in Echtzeit zu erkunden. Durch Mausbewegungen können die Kugel gedreht und gleichzeitig ihre Farben sowie die Intensität der Schatten angepasst werden. Dieses Projekt ist ein kreatives Beispiel dafür, wie moderne Webtechnologien genutzt werden können, um Benutzererlebnisse visuell ansprechend und interaktiv zu gestalten. Die Anwendung demonstriert eindrucksvoll die Leistungsfähigkeit von threejs in der Entwicklung dynamischer 3D-Visualisierungen.",
       link: "https://3d-interactive-colorchanging-sphere.netlify.app/"
     },
     {
-      title: "Yoga Guide",
-      description: "Diese Yoga-Guide-Website wurde mit einer MongoDB-Datenbank gepflegt und ist vollständig responsiv. Sie verfügt über Features wie einen Dark-/Light-Mode, Toaster-Nachrichten und Anker-Links.",
-      link: "https://yoga-guide-2uteimbjf-01specter01s-projects.vercel.app/"
-    },
-    {
       title: "QR-Code Generator",
-      description: "Dieser QR-Code Generator ermöglicht es eine URL in das Eingabefeld zu geben und einen QR-Code zubekommen, diese Anwendung war ein Bedürfnis, da ich diese sehr praktisch finde und öfters nutze.",
+      description: "Dieser QR-Code Generator bietet eine einfache Möglichkeit, URLs in QR-Codes zu konvertieren. Nutzer können ihre URL in das Eingabefeld eingeben und erhalten direkt den passenden QR-Code, der praktisch heruntergeladen oder geteilt werden kann. Diese Anwendung entstand aus dem persönlichen Bedürfnis nach einem nützlichen Tool, das häufige Aufgaben erleichtert und Zeit spart. Durch die intuitive Bedienung und schnelle Generierung ist dieses Projekt ein hilfreiches Werkzeug für alle, die QR-Codes im Alltag oder für berufliche Zwecke nutzen möchten.",
       link: "https://lv003-qr-generator.netlify.app"
     }
   ];
