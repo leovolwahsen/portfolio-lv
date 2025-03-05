@@ -22,10 +22,9 @@ export const ContactInfo: React.FC = () => {
   ];
 
   const contactData = [
-    "Wohnort: Ludwigshafen am Rhein",
+    "Wohnort: München",
     "Telefonnummer: +49 176 4151 8644",
     "Email: volwahsenl@gmail.com",
-    "Github: Leo Volwahsen",
   ];
 
   return (
